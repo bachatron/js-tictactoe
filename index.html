@@ -3,13 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Connect Four HTML Skeleton</title>
+    <title>Tic tac toe</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
    <div class="container">
+     <label for="p1">P1 name (4 to 8 characters):</label>
+     <input type="text" id="p1" name="p1" required minlength="4" maxlength="8" size="10" />
+     <label for="p2">P2 name (4 to 8 characters):</label>
+     <input type="text" id="p2" name="p2" required minlength="4" maxlength="8" size="10" />
      <h1 class="turn"></div>
      <div class="board"></div>
+     <button id="newGame" onclick="ScreenController(p1Name.value, p2Name.value)">New Game</button>
    </div>
     <script src="script.js"></script>
   </body>
