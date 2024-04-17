@@ -147,4 +147,4 @@ const p2Name = document.getElementById('p2');
 
 console.log(p1Name.value, p2Name.value)
 
-ScreenController(p1Name.value, p2Name.value)
+ScreenController()
